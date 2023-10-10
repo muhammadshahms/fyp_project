@@ -6,6 +6,7 @@ import Home from './components/Home';
 import Login from './components/Login';
 import Signup from './components/Signup';
 import { auth } from './firebase';
+import GoogleAuth from './components/googleAuth';
 
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
           <Route path='/' element={<Home name={userName} />} />
           <Route path='/login' element={<Login />} />
           <Route path='/signup' element={<Signup />} />
+          <Route path='/googleauth' element={<GoogleAuth />} />
         </Routes>
       </Router>
     </div>

@@ -12,6 +12,10 @@ function Home(props) {
         <h1>
             <Link to="/signup" >Sign Up</Link>
         </h1>
+        <br />
+        <h1>
+            <Link to="/googleauth" >Google</Link>
+        </h1>
     </div>
 
     <br />
